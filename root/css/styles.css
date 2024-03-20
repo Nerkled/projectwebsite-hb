@@ -1,0 +1,92 @@
+body {
+  background-image: url("../img/henry.JPG");
+  background-size: cover;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+#name {
+  color:#ffffff59;
+  font-size: 5em;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+  font-family: "Source Code Pro", sans-serif;
+}
+
+#links button {
+  border-radius: 4px;
+  background-color: #ffffff59;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  padding: 18px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 24px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  font-family: "Source Code Pro", sans-serif;
+  margin-top: -500px;
+}
+
+#links button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#links button button:after {
+  content: ':)';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#links button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+#links button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.social-media a {
+  margin: 0 1em;
+  font-size: 2em;
+  color: #fdfdfd9f;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color:black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8em;
+  background-color: #00000011;
+  color: #000000;
+  font-size: 1.5em;
+  font-family: "Source Code Pro", sans-serif;
+}

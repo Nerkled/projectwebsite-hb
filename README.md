@@ -25,4 +25,4 @@ To get a local copy up and running, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/my-first-website.git](https://github.com/Nerkled/projectwebsite-hb/tree/main
+   git clone https://github.com/Nerkled/projectwebsite-hb/tree/main
